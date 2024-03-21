@@ -19,6 +19,6 @@ public class AppTrackingTests {
 
     @Test
     public void testAppTrackingJdbcRepository() {
-        Assertions.assertNotNull(this.appTrackingJdbcRepository.findAll());
+        Assertions.assertNotNull(this.appTrackingJdbcRepository.findAllIds());
     }
 }
